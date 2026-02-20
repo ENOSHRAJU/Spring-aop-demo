@@ -1,0 +1,15 @@
+Pointcut - "It tells us where we are applying advice"
+Advice - "It is something we are trying to do."
+         "Advice are 5 types 1. @Before 2. @After 3. @Afterthrowing 4. @AfterReturning 5. @Around"
+         "@After - applies the advice whether the joinpoint (method in the class) executes successfully or not"
+         "@Afterthrowing - applies advice if the joinpoint doesnt execute and get error"
+         "@AfterReturning - applies advice only after successfully executing the method."
+Weaving - process of connecting the place which pointcut is showing us and applying the advice there
+Joinpoint - The specific method in a class which is executing (@Before, @After, @AfterThrowing, @AfterReturning)
+ProceedingJoinpoint - This is exclusive for @Around advice.
+
+Example - Lets say we are going to a dinner with your friends to enjoy with them.
+          Now here where are going to "Dinner" - so dinner is pointcut
+          what are going to do there eat right - so eat is the advice
+          process of we going to dinner by vehicle is weaving
+          what are we going to eat is joinpoint
